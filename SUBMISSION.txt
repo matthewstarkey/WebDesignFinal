@@ -1,0 +1,52 @@
+#1) In public/zoomingo.html lines 18-34. In public/zoomingo.js function on line 33 (when "New Game" clicked)
+    function on line 176 (when #bingo clicked) and function on line 219 (when #reset clicked)
+    Given more time I wouldve played with the styles and display more. The functionality is all good
+
+#2) In public/zoomingo.js function on line 60 & line 14 (board size, change event, board DOM requirements)
+    In public/styles.css lines 33-40 (style of #board)
+    I wouldn't change much with this if given more time. Not exactly sure what there is to change
+    It follows the guide/video submission pretty accurately
+
+#3) In public/zoomingo.js function on line 33 ("New Game") Backend in app.js on line 19
+    Consider making a toggle function for disabling / enabling buttons (lines 37-41)
+    Otherwise no changes would be made. Follows instructions accurately, and is relatively intuitive.
+
+#4) In app.js line 206 and function at 196.
+    If given more time would automatically have FREE (id=1) be selected
+    However this behavior isn't described in spec of shown in video so I didn't bother to add
+    but it makes most sense for best UX.
+
+#5) in public/zoomingo.js function on line 221
+    No changes here other than wanting to add a function to toggle enabling/disabling buttons/inputs.
+    Potentially by having it pass a Boolean as a parameter.
+
+#6) In public/zoomingo.js function on line 99. Backend in app.js on line 34
+    In spec it says to remove eventlistener once clicked (which is done on line 107).
+    However I personally would ADD a different event listener once selected so users could deselect square
+    Also implementing a backend node to remove scenario from given scenario IDs and so on.
+    This is just to inhance the UX but isn't in the spec or video so I did not bother.
+
+#7) public/zoomingo.js function on line 116. Bacekend node in app.js on line 61
+    Changes I would make are adding vector direction to it. i.e. only having 5 in size 25 board means you win.
+    I would make it so that you have to actually span the board like in actual Bingo rather than just meet a num requirement
+    This isn't required in spec so no need to add for purpose of assignment
+
+#8) in app.js function on line 174. (Called in line 24 for newGame node)
+    If given more time it would fun to add a password to this so users could actually log in rather than
+    just have a unique name tied to a playerID. Far out of scope of CSE154 though.
+
+#9) In zoomingo.db
+    No changes here. Pretty straightforward. Although previous changes mentioned would require changes to db
+    so it applies here. Username / password things.
+
+#10) In app.js from function on line 130 & function on line 287
+    No changes needed here. Everything follows spec, UX and UI relatively intuitive.
+    Potentially could add a function or two to update things, but for project this size there
+    was no large redundancies by adding data to database.
+
+#11) In public/zoomingo.js lines 20-24 and function on line 129. For backend in app.js node on line 86
+    No changes large changes here.
+    I think I did a decent job with reusing functions in client for newGame towards resumeGame
+    Follows all specifications for newGame into resumeGame
+
+NOTE: My video is in mkv format. If there is any issues please contact me and I can send different format!

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+  Matthew Starkey
+  CSE 154 AE
+  6.8.2020
+-->
+<html lang="en">
+  <head>
+    <title>Zoomingo</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="zoomingo.js"></script>
+  </head>
+  <body>
+    <h1 id="intro">Welcome to CSE 154 Zoomingo</h1>
+    <section id="main-container">
+      <div class="intro-container">
+        <p>Enter your name: </p>
+        <input type="text" id="name">
+      </div>
+      <div class="intro-container">
+        <p>Choose board size: </p>
+        <select id="size-select">
+          <option value="0">--Please choose a board size--</option>
+          <option value="9">3x3</option>
+          <option value="25">5x5</option>
+          <option value="49">7x7</option>
+          <option value="81">9x9</option>
+        </select>
+      </div>
+      <div id="start-buttons" class="intro-container">
+        <button id="new-game">New Game</button>
+        <button id="reset">Reset</button>
+        <button id="resume" disabled>Resume Game?</button>
+      </div>
+      <p id='error' class='hidden'></p>
+    </section>
+    <div id="board">
+    </div>
+    <button id="bingo">Bingo!!!</button>
+    <footer>
+      Created by Matthew Starkey for CSE 154 Final Project @ University of Washington
+    </footer>
+  </body>
+</html>

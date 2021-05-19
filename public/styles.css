@@ -1,0 +1,91 @@
+#main-container {
+  margin-bottom: 50px;
+}
+
+.intro-container {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+}
+
+#start-buttons {
+  justify-content: space-evenly;
+}
+
+.intro-container input, .intro-container select {
+  height: 20px;
+  align-self: center;
+}
+
+.intro-container select {
+  width: 225px;
+}
+
+.intro-container p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+#board {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-around;
+  width: 80%;
+  border-style: dashed;
+  border-width: 1px;
+}
+
+#board, .intro-container {
+  margin: auto;
+}
+
+.square {
+  border: solid;
+  border-width: 1px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.square-9 {
+  flex-basis: 30%;
+}
+
+.square-25 {
+  flex-basis: 18%;
+}
+
+.square-49 {
+  flex-basis: 13%;
+}
+
+.square-81 {
+  flex-basis: 10%;
+}
+
+#bingo {
+  margin-top: 20px;
+  margin-left: 50%;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  background-color: blue;
+}
+
+#error {
+  font-size: 30px;
+  color: red;
+}
+
+.selected {
+  background-color: lightcyan;
+}
+
+.hidden {
+  display: none;
+}
